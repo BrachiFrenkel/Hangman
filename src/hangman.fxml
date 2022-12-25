@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="335.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HangmanController">
+   <children>
+      <ImageView fx:id="backgroundImg" fitHeight="600.0" fitWidth="335.0" opacity="0.65" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="winLbl" layoutX="-32.0" prefHeight="600.0" prefWidth="400.0" />
+      <AnchorPane fx:id="keyboardPane" layoutX="-23.0" layoutY="427.0" prefHeight="159.0" prefWidth="364.0">
+         <children>
+            <Button layoutX="61.0" layoutY="14.0" mnemonicParsing="false" onAction="#chooseCharOnAction" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: #5e5e5e;" text="A" textFill="#ffc297">
+               <font>
+                  <Font name="Calibri Bold" size="12.5" />
+               </font>
+            </Button>
+            <Button layoutX="94.0" layoutY="14.0" mnemonicParsing="false" onAction="#chooseCharOnAction" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: #5e5e5e;" text="B" textFill="#ffc297">
+               <font>
+                  <Font name="Calibri Bold" size="12.5" />
+               </font>
+            </Button>
+            <Button layoutX="127.0" layoutY="14.0" mnemonicParsing="false" onAction="#chooseCharOnAction" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: #5e5e5e;" text="C" textFill="#ffc297">
+               <font>
+                  <Font name="Calibri Bold" size="12.5" />
+               </font>
+            </Button>
+            <Button layoutX="160.0" layoutY="14.0" mnemonicParsing="false" onAction="#chooseCharOnAction" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: #5e5e5e;" text="D" textFill="#ffc297">
+               <font>
+                  <Font name="Calibri Bold" size="12.5" />
+               </font>
+            </Button>
+            <Button layoutX="193.0" layoutY="14.0" mnemonicParsing="false" onAction="#chooseCharOnAction" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: #5e5e5e;" text="E" textFill="#ffc297">
+               <font>
+                  <Font name="Calibri Bold" size="12.5" />
+               </font>
+            </Button>
+            <Button layoutX="226.0" layoutY="14.0" mnemonicParsing="false" onAction="#chooseCharOnAction" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: #5e5e5e;" text="F" textFill="#ffc297">
+               <font>
+                  <Font name="Calibri Bold" size="12.5" />
+               </font>
+            </Button>
+            <Button layoutX="79.0" layoutY="49.0" mnemonicParsing="false" onAction="#chooseCharOnAction" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: #5e5e5e;" text="I" textFill="#ffc297">
+               <font>
+                  <Font name="Calibri Bold" size="12.5" />
+               </font>
+            </Button>
+            <Button layoutX="112.0" layoutY="49.0" mnemonicParsing="false" onAction="#chooseCharOnAction" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: #5e5e5e;" text="J" textFill="#ffc297">
+               <font>
+                  <Font name="Calibri Bold" size="12.5" />
+               </font>
+            </Button>
+            <Button layoutX="145.0" layoutY="49.0" mnemonicParsing="false" onAction="#chooseCharOnAction" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: #5e5e5e;" text="K" textFill="#ffc297">
+               <font>
+                  <Font name="Calibri Bold" size="12.5" />
+               </font>
+            </Button>
+            <Button layoutX="178.0" layoutY="49.0" mnemonicParsing="false" onAction="#chooseCharOnAction" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: #5e5e5e;" text="L" textFill="#ffc297">
+               <font>
+                  <Font name="Calibri Bold" size="12.5" />
+               </font>
+            </Button>
+            <Button layoutX="211.0" layoutY="49.0" mnemonicParsing="false" onAction="#chooseCharOnAction" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: #5e5e5e;" text="M" textFill="#ffc297">
+               <font>
+                  <Font name="Calibri Bold" size="12.5" />
+               </font>
+            </Button>
+            <Button layoutX="244.0" layoutY="49.0" mnemonicParsing="false" onAction="#chooseCharOnAction" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: #5e5e5e;" text="N" textFill="#ffc297">
+               <font>
+                  <Font name="Calibri Bold" size="12.5" />
+               </font>
+            </Button>
+            <Button layoutX="260.0" layoutY="14.0" mnemonicParsing="false" onAction="#chooseCharOnAction" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: #5e5e5e;" text="G" textFill="#ffc297">
+               <font>
+                  <Font name="Calibri Bold" size="12.5" />
+               </font>
+            </Button>
+            <Button layoutX="293.0" layoutY="14.0" mnemonicParsing="false" onAction="#chooseCharOnAction" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: #5e5e5e;" text="H" textFill="#ffc297">
+               <font>
+                  <Font name="Calibri Bold" size="12.5" />
+               </font>
+            </Button>
+            <Button layoutX="277.0" layoutY="49.0" mnemonicParsing="false" onAction="#chooseCharOnAction" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: #5e5e5e;" text="O" textFill="#ffc297">
+               <font>
+                  <Font name="Calibri Bold" size="12.5" />
+               </font>
+            </Button>
+            <Button layoutX="96.0" layoutY="83.0" mnemonicParsing="false" onAction="#chooseCharOnAction" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: #5e5e5e;" text="P" textFill="#ffc297">
+               <font>
+                  <Font name="Calibri Bold" size="12.5" />
+               </font>
+            </Button>
+            <Button layoutX="129.0" layoutY="83.0" mnemonicParsing="false" onAction="#chooseCharOnAction" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: #5e5e5e;" text="Q" textFill="#ffc297">
+               <font>
+                  <Font name="Calibri Bold" size="12.5" />
+               </font>
+            </Button>
+            <Button layoutX="162.0" layoutY="83.0" mnemonicParsing="false" onAction="#chooseCharOnAction" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: #5e5e5e;" text="R" textFill="#ffc297">
+               <font>
+                  <Font name="Calibri Bold" size="12.5" />
+               </font>
+            </Button>
+            <Button layoutX="196.0" layoutY="83.0" mnemonicParsing="false" onAction="#chooseCharOnAction" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: #5e5e5e;" text="S" textFill="#ffc297">
+               <font>
+                  <Font name="Calibri Bold" size="12.5" />
+               </font>
+            </Button>
+            <Button layoutX="229.0" layoutY="83.0" mnemonicParsing="false" onAction="#chooseCharOnAction" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: #5e5e5e;" text="T" textFill="#ffc297">
+               <font>
+                  <Font name="Calibri Bold" size="12.5" />
+               </font>
+            </Button>
+            <Button layoutX="263.0" layoutY="83.0" mnemonicParsing="false" onAction="#chooseCharOnAction" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: #5e5e5e;" text="U" textFill="#ffc297">
+               <font>
+                  <Font name="Calibri Bold" size="12.5" />
+               </font>
+            </Button>
+            <Button layoutX="110.0" layoutY="119.0" mnemonicParsing="false" onAction="#chooseCharOnAction" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: #5e5e5e;" text="V" textFill="#ffc297">
+               <font>
+                  <Font name="Calibri Bold" size="12.5" />
+               </font>
+            </Button>
+            <Button layoutX="143.0" layoutY="119.0" mnemonicParsing="false" onAction="#chooseCharOnAction" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: #5e5e5e;" text="W" textFill="#ffc297">
+               <font>
+                  <Font name="Calibri Bold" size="12.5" />
+               </font>
+            </Button>
+            <Button layoutX="176.0" layoutY="119.0" mnemonicParsing="false" onAction="#chooseCharOnAction" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: #5e5e5e;" text="X" textFill="#ffc297">
+               <font>
+                  <Font name="Calibri Bold" size="12.5" />
+               </font>
+            </Button>
+            <Button layoutX="209.0" layoutY="119.0" mnemonicParsing="false" onAction="#chooseCharOnAction" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: #5e5e5e;" text="Y" textFill="#ffc297">
+               <font>
+                  <Font name="Calibri Bold" size="12.5" />
+               </font>
+            </Button>
+            <Button layoutX="242.0" layoutY="119.0" mnemonicParsing="false" onAction="#chooseCharOnAction" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: #5e5e5e;" text="Z" textFill="#ffc297">
+               <font>
+                  <Font name="Calibri Bold" size="12.5" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Label fx:id="hiddenWord" alignment="CENTER" layoutX="39.0" layoutY="377.0" prefHeight="50.0" prefWidth="257.0" textAlignment="RIGHT" textOverrun="LEADING_ELLIPSIS">
+         <font>
+            <Font name="Calibri Bold" size="26.0" />
+         </font>
+      </Label>
+      <AnchorPane fx:id="gameOverPane" layoutX="31.0" layoutY="357.0" prefHeight="146.0" prefWidth="257.0">
+         <children>
+            <Label fx:id="endGameLbl" alignment="CENTER" contentDisplay="CENTER" layoutY="-20.0" prefHeight="68.0" prefWidth="257.0" textAlignment="CENTER">
+               <font>
+                  <Font name="Calibri Bold" size="18.0" />
+               </font>
+            </Label>
+            <Button layoutX="135.0" layoutY="63.0" mnemonicParsing="false" onAction="#playAgainOnAction" prefHeight="37.0" prefWidth="81.0" style="-fx-background-color: #5e5e5e;" text="play again" textFill="#ffc38a">
+               <font>
+                  <Font name="Calibri Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button layoutX="48.0" layoutY="63.0" mnemonicParsing="false" onAction="#exitOnAction" prefHeight="37.0" prefWidth="81.0" style="-fx-background-color: #5e5e5e;" text="exit" textFill="#ffc38a">
+               <font>
+                  <Font name="Calibri Bold" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="38.0" layoutY="52.0" prefHeight="317.0" prefWidth="257.0">
+         <children>
+            <Label fx:id="labelToShow" layoutX="25.0" prefHeight="317.0" prefWidth="257.0" textFill="#fc0000" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

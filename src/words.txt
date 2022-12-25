@@ -1,0 +1,10 @@
+hello
+name
+banana
+apple
+happy
+word
+coffee
+pizza
+dog
+cat
